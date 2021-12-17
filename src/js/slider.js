@@ -150,9 +150,9 @@ function projectSlider() {
 		projectData(projects[num]);
 		
 		let projectPhotos;
-		if (num === 0) {
+		if (num == 0) {
 				projectPhotos = photosAdmiral;
-		} else if (num === 1) {
+		} else if (num == 1) {
 				projectPhotos = photosSochi;
 		} else {
 				projectPhotos = photosPatriot;
