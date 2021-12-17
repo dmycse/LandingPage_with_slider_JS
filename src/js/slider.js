@@ -146,7 +146,7 @@ function projectSlider() {
 		projectPages.querySelector('.dot-active').classList.remove('dot-active');
 		projectPages.querySelector('.n' + num).classList.add('dot-active');
 		
-		projectData(projects[num]);
+		projectData(projects[+num]);
 		
 		let projectPhotos;
 		if (num == 0) {
