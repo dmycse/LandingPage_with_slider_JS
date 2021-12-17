@@ -94,7 +94,6 @@ function projectSlider() {
 	initDots();
 	
 	function initProjects() {
-		projectItems.querySelectorAll('.project__item').forEach(item => item.remove());
 		projects.forEach((project, index) => {
 			let projectName = `<div class="project__item link-cursor n${index} ${index === 0 ? 'project__link-active' : ''}" data-index='${index}'>${projects[index].city}, ${projects[index].name}</div>`
 			projectItems.innerHTML += projectName;
